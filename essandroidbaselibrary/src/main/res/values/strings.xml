@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">eSS Technologies</string>
+
+
+    <string name="app_description_text">Sri Lankan largest passenger transport service platform</string>
+    <string name="app_copyright_year">2018</string>
+    <string name="app_company_name">eSS Technologies</string>
+
+
+    <!-- Strings related to login -->
+    <string name="action_sign_up_txt">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+
+
+    <!-- Splash Screen -->
+    <string name="loading_text">Loading...</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- No Internet waiting activity-->
+    <string name="no_internet_title_no_internet_text">No valid internet connection</string>
+    <string name="no_internet_descriptione_no_internet_text">Please check your Internet connection\n(Connect to Wifi or enable mobile data)</string>
+    <string name="error_app_no_internet">Please check your internet connection.</string>
+
+    <!-- GPS -->
+    <string name="main_msg_gps_disabled">Your GPS seems to be disabled, do you want to enable it?</string>
+
+    <!-- About us-->
+    <string name="about_us_txt_version">Version</string>
+    <string name="about_us_txt_contact">Contact Us</string>
+    <string name="about_us_txt_facebook">Like us on Facebook</string>
+    <string name="about_us_txt_youtube">Watch us on Youtube</string>
+    <string name="about_us_txt_playstore">Rate us</string>
+    <string name="about_us_txt_copyright">Copyrights</string>
+
+    <!--Help-->
+    <string name="title_activity_main">SLBG</string>
+    <string name="title_activity_changePwd">Change Password</string>
+</resources>

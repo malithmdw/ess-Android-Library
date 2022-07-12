@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors-->
+    <color name="white">#ffffff</color>
+    <color name="low_purple">#8842e4</color>
+
+
+    <!-- App common colors-->
+    <!--<color name="colorPrimary">#3f51b5</color>-->
+    <!--<color name="colorPrimaryDark">#303f9f</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#494949</color>
+    <color name="colorPrimaryDark">#181818</color>
+    <color name="colorAccent">#000000</color>
+    <color name="splash_background_color">#000000</color>
+
+    <!-- Progress bar color -->
+    <color name="waiting_circular_progressbar_color">#4d4d4d</color>
+
+    <!-- Edit Text Fields-->
+
+    <!-- Toast message colors-->
+    <color name="toast_error_color">#e63434</color>
+    <color name="toast_warning_color">#e77213</color>
+    <color name="toast_info_color">#2ba439</color>
+
+    <!-- Rate colors-->
+
+    <!-- Service type colors-->
+
+    <!--Custom Dialog Box-->
+    <color name="black_overlay">#5c000000</color>
+    <color name="gradient_start">#ffffffff</color>
+    <color name="gradient_end">#ffeeeeee</color>
+
+    <!-- No Internet activity-->
+    <color name="downloading_data_background">#3d73a5</color>
+    <color name="downloading_data_no_internet_background">#e24b4b</color>
+
+    <!-- Phone field-->
+    <color name="pf_grey">#262626</color>
+    <color name="pf_grey_light">#999999</color>
+
+    <!-- Selected Route-->
+
+    <!-- color of the search box -->
+
+</resources>

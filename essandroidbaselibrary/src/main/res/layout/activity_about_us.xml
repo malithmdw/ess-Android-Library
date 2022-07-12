@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ess.eSSAndroidBaseLibrary.AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/about_us_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/about_us_image"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <TextView
+            android:id="@+id/about_us_description_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/about_us_image"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="17dp"
+            android:text="@string/app_description_text" />
+
+        <RelativeLayout
+            android:id="@+id/about_us_version"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@layout/rounded_border_gradient"
+            android:layout_below="@+id/about_us_description_txt">
+
+            <TextView
+                android:id="@+id/about_us_version_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:textSize="16dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_us_contact_us"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@layout/rounded_border_gradient"
+            android:layout_below="@+id/about_us_version">
+
+            <ImageView
+                android:id="@+id/about_us_contact_us_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mail_icon_image"
+                android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/about_us_contact_us_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:textSize="16dp"
+                android:text="@string/about_us_txt_contact"
+                android:layout_toRightOf="@+id/about_us_contact_us_imageView"
+                android:layout_toEndOf="@+id/about_us_contact_us_imageView" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_us_facebook"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@layout/rounded_border_gradient"
+            android:layout_below="@+id/about_us_contact_us">
+
+            <ImageView
+                android:id="@+id/about_us_facebook_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/facebook_icon_image"
+                android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/about_us_facebook_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:textSize="16dp"
+                android:text="@string/about_us_txt_facebook"
+                android:layout_toRightOf="@+id/about_us_facebook_imageView"
+                android:layout_toEndOf="@+id/about_us_facebook_imageView" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_us_youtube"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/about_us_facebook"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@layout/rounded_border_gradient">
+
+            <ImageView
+                android:id="@+id/about_us_youtube_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                app:srcCompat="@drawable/youtube_icon_image" />
+
+            <TextView
+                android:id="@+id/about_us_youtube_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/about_us_youtube_imageView"
+                android:layout_toRightOf="@+id/about_us_youtube_imageView"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:text="@string/about_us_txt_youtube"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_us_playstore"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@layout/rounded_border_gradient"
+            android:layout_below="@+id/about_us_youtube">
+
+            <ImageView
+                android:id="@+id/about_us_playstore_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/playstore_icon_image"
+                android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/about_us_playstore_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:textSize="16dp"
+                android:text="@string/about_us_txt_playstore"
+                android:layout_toRightOf="@+id/about_us_playstore_imageView"
+                android:layout_toEndOf="@+id/about_us_playstore_imageView" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/about_us_copy_right_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/about_us_playstore"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:text="" />
+    </RelativeLayout>
+</ScrollView>
