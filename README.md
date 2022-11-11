@@ -15,9 +15,9 @@ Connectivity
             - Read and Write to bluetooth device
             
             Location Handler
-            - Manage GPS connection
+            - Manage GPS connection - Permissions and read location
             
-            Device SMS manage
+            Manage Device SMS
             - Read SMS (Depricated - Permission policy)
             
 Utility
