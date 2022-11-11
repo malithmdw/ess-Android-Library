@@ -52,7 +52,7 @@ public class MessageBox
     public void showMessage(Activity context, String messageTitle, String message)
     {
         this.mActivity = context;
-        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(mActivity);
+        androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(mActivity);
         builder.setCancelable(true);
         builder.setTitle(messageTitle);
         builder.setMessage(message);

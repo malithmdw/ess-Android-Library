@@ -3,11 +3,11 @@ package com.ess.essandroidbaselibrary.communication;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
-
+/*
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -19,6 +19,19 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+*/
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 
@@ -207,7 +220,7 @@ public class ApacheHTTPConnector extends ServerDatabaseConnection
 
                 // Encode the passed parameters into the Http request
                 if (params != null)
-                    httpPost.setEntity(new UrlEncodedFormEntity(params));
+                    httpPost.setEntity(new UrlEncodedFormEntity(params, (String) null));
                 // Execute the request and fetch Http response
                 HttpResponse httpResponse = httpClient.execute(httpPost);
                 // Extract the result from the response
